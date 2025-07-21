@@ -15,6 +15,12 @@ run/main_scene="uid://8bon2ex7poxj"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
+PhantomCameraManager="*res://addons/phantom_camera/scripts/managers/phantom_camera_manager.gd"
+SceneManager="*res://addons/scene_manager/SceneManager.tscn"
+
 [display]
 
 window/size/viewport_width=1366
@@ -23,3 +29,7 @@ window/size/viewport_height=720
 [dotnet]
 
 project/assembly_name="Last Pulse"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/AsepriteWizard/plugin.cfg", "res://addons/TileMapDual/plugin.cfg", "res://addons/dialogue_manager/plugin.cfg", "res://addons/phantom_camera/plugin.cfg", "res://addons/scene_manager/plugin.cfg")
