@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://dhhn1gthx6iam"
+path="res://.godot/imported/PhoneBooths.aseprite-bb54d7a12628751e67f7750883768e99.res"
+
+[deps]
+
+source_file="res://assets/tileset/NeonNightCityTileset/Aseprite/PhoneBooths.aseprite"
+dest_files=["res://.godot/imported/PhoneBooths.aseprite-bb54d7a12628751e67f7750883768e99.res"]
+
+[params]
+

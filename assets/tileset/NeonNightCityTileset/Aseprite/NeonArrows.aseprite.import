@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://cfbbv1xjvrmbh"
+path="res://.godot/imported/NeonArrows.aseprite-31d62976b0cf87759df0e457eb3cc013.res"
+
+[deps]
+
+source_file="res://assets/tileset/NeonNightCityTileset/Aseprite/NeonArrows.aseprite"
+dest_files=["res://.godot/imported/NeonArrows.aseprite-31d62976b0cf87759df0e457eb3cc013.res"]
+
+[params]
+

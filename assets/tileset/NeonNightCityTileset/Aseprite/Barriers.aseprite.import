@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://bxnexur1nywbv"
+path="res://.godot/imported/Barriers.aseprite-c3bb258bcadb5d20b45a53ebd6de2b5f.res"
+
+[deps]
+
+source_file="res://assets/tileset/NeonNightCityTileset/Aseprite/Barriers.aseprite"
+dest_files=["res://.godot/imported/Barriers.aseprite-c3bb258bcadb5d20b45a53ebd6de2b5f.res"]
+
+[params]
+

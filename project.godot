@@ -14,17 +14,27 @@ config/name="Last Pulse"
 run/main_scene="uid://8bon2ex7poxj"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+boot_splash/minimum_display_time=2
 
 [autoload]
 
 DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
 PhantomCameraManager="*res://addons/phantom_camera/scripts/managers/phantom_camera_manager.gd"
 SceneManager="*res://addons/scene_manager/SceneManager.tscn"
+NarratorIntro="*res://Scenes/narrator_intro.gd"
+
+[debug]
+
+settings/stdout/print_fps=true
 
 [display]
 
-window/size/viewport_width=1366
-window/size/viewport_height=720
+window/size/viewport_width=640
+window/size/viewport_height=360
+window/size/window_width_override=1920
+window/size/window_height_override=1080
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
 
 [dotnet]
 
@@ -33,3 +43,11 @@ project/assembly_name="Last Pulse"
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/AsepriteWizard/plugin.cfg", "res://addons/TileMapDual/plugin.cfg", "res://addons/dialogue_manager/plugin.cfg", "res://addons/phantom_camera/plugin.cfg", "res://addons/scene_manager/plugin.cfg")
+
+[layer_names]
+
+2d_physics/layer_1="Fondo"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0

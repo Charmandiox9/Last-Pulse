@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://ctl7hppwag06v"
+path="res://.godot/imported/SurveillanceCamera.aseprite-e453a89b7d11199aa28869ae5f221d96.res"
+
+[deps]
+
+source_file="res://assets/tileset/NeonNightCityTileset/Aseprite/SurveillanceCamera.aseprite"
+dest_files=["res://.godot/imported/SurveillanceCamera.aseprite-e453a89b7d11199aa28869ae5f221d96.res"]
+
+[params]
+

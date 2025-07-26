@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://dbddo38m6oy4u"
+path="res://.godot/imported/TrafficLight.aseprite-5e50126b25aa1fa4f80508f399c117db.res"
+
+[deps]
+
+source_file="res://assets/tileset/NeonNightCityTileset/Aseprite/TrafficLight.aseprite"
+dest_files=["res://.godot/imported/TrafficLight.aseprite-5e50126b25aa1fa4f80508f399c117db.res"]
+
+[params]
+

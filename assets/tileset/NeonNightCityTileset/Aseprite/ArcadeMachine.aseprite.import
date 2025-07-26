@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://cdyf787cd1tij"
+path="res://.godot/imported/ArcadeMachine.aseprite-a2d387da63fa683daf63a21898272980.res"
+
+[deps]
+
+source_file="res://assets/tileset/NeonNightCityTileset/Aseprite/ArcadeMachine.aseprite"
+dest_files=["res://.godot/imported/ArcadeMachine.aseprite-a2d387da63fa683daf63a21898272980.res"]
+
+[params]
+

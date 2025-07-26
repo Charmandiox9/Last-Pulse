@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://vebouyafdkvd"
+path="res://.godot/imported/Decals.aseprite-313e7f59eea40a971a7991ef33b4a852.res"
+
+[deps]
+
+source_file="res://assets/tileset/NeonNightCityTileset/Aseprite/Decals.aseprite"
+dest_files=["res://.godot/imported/Decals.aseprite-313e7f59eea40a971a7991ef33b4a852.res"]
+
+[params]
+

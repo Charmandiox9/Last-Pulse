@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://cr53enu1osh06"
+path="res://.godot/imported/Bird.aseprite-d1073eb9b3dad95e1ad508b3e1b78d17.res"
+
+[deps]
+
+source_file="res://assets/tileset/NeonNightCityTileset/Aseprite/Bird.aseprite"
+dest_files=["res://.godot/imported/Bird.aseprite-d1073eb9b3dad95e1ad508b3e1b78d17.res"]
+
+[params]
+
