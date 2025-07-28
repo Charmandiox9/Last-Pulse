@@ -1,7 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://cofcarp3grlo2"]
+[gd_scene load_steps=7 format=3 uid="uid://b2v6ut0afh0yd"]
 
-[ext_resource type="Script" uid="uid://njdrjsghttj3" path="res://Scenes/narrator_intro.gd" id="1_5u3yo"]
-[ext_resource type="FontFile" uid="uid://wt1ndj4iqhb2" path="res://assets/fonts/VCR_OSD_MONO_1.001.ttf" id="2_w48ri"]
+[ext_resource type="Script" uid="uid://njdrjsghttj3" path="res://Scripts/narrator_intro.gd" id="1_5u3yo"]
+[ext_resource type="FontFile" uid="uid://cnvb35v0h0jfk" path="res://assets/fonts/VCR_OSD_MONO_1.001.ttf" id="2_w48ri"]
 [ext_resource type="AudioStream" uid="uid://cgxau1gxidsgt" path="res://assets/audios/emily_narrator.mp3" id="3_jj3hj"]
 
 [sub_resource type="Animation" id="Animation_ebr2b"]
@@ -131,8 +131,11 @@ script = ExtResource("1_5u3yo")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 modulate = Color(1, 1, 1, 0.768627)
-offset_right = 640.0
-offset_bottom = 360.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 color = Color(0.109804, 0.109804, 0.109804, 1)
 
 [node name="Label" type="Label" parent="."]
@@ -150,8 +153,9 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 theme_override_fonts/font = ExtResource("2_w48ri")
-theme_override_font_sizes/font_size = 20
-text = "Record 01. The prototype is active. 
+theme_override_font_sizes/font_size = 30
+text = "Record 01. 
+The prototype is active. 
 If you can hear me... your heart is the last.
 This network is dead, but your pulse can awaken it."
 horizontal_alignment = 1
@@ -159,12 +163,12 @@ vertical_alignment = 1
 
 [node name="Label2" type="Label" parent="."]
 modulate = Color(1, 1, 1, 0.768627)
-offset_left = 543.0
-offset_top = 234.0
-offset_right = 626.0
-offset_bottom = 257.0
+offset_left = 865.0
+offset_top = 404.0
+offset_right = 1030.0
+offset_bottom = 427.0
 theme_override_fonts/font = ExtResource("2_w48ri")
-theme_override_font_sizes/font_size = 10
+theme_override_font_sizes/font_size = 20
 text = "Dra. Lyra Veil"
 horizontal_alignment = 1
 vertical_alignment = 1

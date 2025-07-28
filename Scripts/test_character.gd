@@ -6,8 +6,8 @@ const JUMP_VELOCITY = 175
 const GRAVITY = 9
 
 # Constantes de zoom
-const DEFAULT_ZOOM = Vector2(3.0, 3.0)
-const CLOSE_ZOOM = Vector2(1.5, 1.5)
+const DEFAULT_ZOOM = Vector2(4.0, 4.0)
+const CLOSE_ZOOM = Vector2(2.5, 2.5)
 const ZOOM_SPEED = 2.0
 
 # Variables
@@ -21,11 +21,11 @@ var target_zoom = DEFAULT_ZOOM
 
 func _physics_process(delta: float) -> void:
 	# Obtener dirección de movimiento
-	direction = Input.get_axis("ui_left", "ui_right")
+	direction = Input.get_axis(GlobalSettings.get_move_left_action(), GlobalSettings.get_move_right_action())
 	velocity.x = direction * SPEED
 	
 	# Gestionar salto
-	if is_on_floor() and Input.is_action_just_pressed("ui_accept"):
+	if is_on_floor() and Input.is_action_just_pressed("jump"):
 		velocity.y -= JUMP_VELOCITY
 	
 	# Aplicar gravedad si no está en el suelo

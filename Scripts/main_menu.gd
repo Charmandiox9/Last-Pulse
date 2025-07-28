@@ -1,7 +1,7 @@
 extends Control
 
 func _on_play_btn_pressed() -> void:
-	pass # Replace with function body.
+	get_tree().change_scene_to_file("res://Scenes/zone_of_silence.tscn")
 
 func _on_settings_btn_pressed() -> void:
 	$SettingsMenu.show()

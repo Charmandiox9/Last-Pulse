@@ -2,10 +2,10 @@
 
 [ext_resource type="Script" uid="uid://dtf6h0qpmt4gp" path="res://Scripts/main_menu.gd" id="1_1ehe0"]
 [ext_resource type="Texture2D" uid="uid://c62tr1x4qsvo1" path="res://assets/images/main_menu.png" id="1_48xlc"]
-[ext_resource type="FontFile" uid="uid://bkhq4ux8vfrvk" path="res://assets/fonts/VCR_OSD_MONO_1.001.ttf" id="2_1ehe0"]
-[ext_resource type="PackedScene" uid="uid://cx45u207cc005" path="res://Scenes/settings_menus.tscn" id="4_n45e2"]
-[ext_resource type="PackedScene" uid="uid://dl0woldm0mtpp" path="res://Scenes/fps_label.tscn" id="5_opfnp"]
-[ext_resource type="PackedScene" uid="uid://brokipqxcomjf" path="res://Scenes/GlobalUI.tscn" id="6_opfnp"]
+[ext_resource type="FontFile" uid="uid://cnvb35v0h0jfk" path="res://assets/fonts/VCR_OSD_MONO_1.001.ttf" id="2_1ehe0"]
+[ext_resource type="PackedScene" path="res://Scenes/settings_menus.tscn" id="4_n45e2"]
+[ext_resource type="PackedScene" path="res://Scenes/fps_label.tscn" id="5_opfnp"]
+[ext_resource type="PackedScene" path="res://Scenes/GlobalUI.tscn" id="6_opfnp"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ce3w2"]
 bg_color = Color(0.027451, 0.0431373, 0.0627451, 1)

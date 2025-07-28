@@ -208,15 +208,15 @@ func _load_controls_from_config(config: ConfigFile) -> void:
 
 # ---------------- RESET CONTROLS DEFAULT ----------------
 func _reset_controls_to_default() -> void:
-	# Aquí define tus controles por defecto
 	var default_keys := {
-		"move_up": KEY_W,
+		"move_up": KEY_W,      # o "jump": KEY_SPACE
 		"move_down": KEY_S,
 		"move_left": KEY_A,
 		"move_right": KEY_D,
+		"jump": KEY_SPACE,     # Agregar esta línea
 		"shoot": KEY_SPACE
 	}
-
+	
 	for action in InputMap.get_actions():
 		if action.begins_with("ui_"):
 			continue
@@ -226,3 +226,13 @@ func _reset_controls_to_default() -> void:
 			@warning_ignore("INT_AS_ENUM_WITHOUT_CAST")
 			ev.physical_keycode = default_keys[action]
 			InputMap.action_add_event(action, ev)
+
+# ---------------- GETTERS PARA ACCIONES ----------------
+func get_move_left_action() -> String:
+	return "move_left"
+
+func get_move_right_action() -> String:
+	return "move_right"
+
+func get_jump_action() -> String:
+	return "jump"  # Agregar esta acción a tu default_keys

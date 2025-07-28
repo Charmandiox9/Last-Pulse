@@ -1,4 +1,4 @@
-[gd_scene load_steps=41 format=3 uid="uid://buh3ghyjru2k5"]
+[gd_scene load_steps=41 format=3 uid="uid://0x8i7auispds"]
 
 [ext_resource type="Texture2D" uid="uid://bd4r3wbij6x57" path="res://assets/tileset/NeonNightCityTileset/Sprites/Tilesets/Main.png" id="1_0ks0y"]
 [ext_resource type="Texture2D" uid="uid://cot8q64d06lvg" path="res://assets/tileset/NeonNightCityTileset/Sprites/Tilesets/Walls.png" id="2_8y13q"]
@@ -18,7 +18,7 @@
 [ext_resource type="Texture2D" uid="uid://bed2to0x0mm84" path="res://assets/tileset/NeonNightCityTileset/Sprites/Decals/Decals.png" id="10_0d4ty"]
 [ext_resource type="PackedScene" uid="uid://bwixpxt3s21qg" path="res://Scenes/test_character.tscn" id="11_4d38c"]
 [ext_resource type="Texture2D" uid="uid://cemgcl4av7ett" path="res://assets/tileset/NeonNightCityTileset/Sprites/Props/Streetlights.png" id="11_sd5q0"]
-[ext_resource type="PackedScene" uid="uid://cofcarp3grlo2" path="res://Scenes/narrator_intro.tscn" id="19_sr2s7"]
+[ext_resource type="PackedScene" uid="uid://b2v6ut0afh0yd" path="res://Scenes/narrator_intro.tscn" id="19_sr2s7"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1fsdr"]
 size = Vector2(1517, 201)
