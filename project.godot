@@ -20,11 +20,11 @@ config/icon="res://icon.svg"
 DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
 PhantomCameraManager="*res://addons/phantom_camera/scripts/managers/phantom_camera_manager.gd"
 SceneManager="*res://addons/scene_manager/SceneManager.tscn"
+GlobalSettings="*res://Scripts/global_settings.gd"
 
 [display]
 
-window/size/viewport_width=1366
-window/size/viewport_height=720
+window/stretch/mode="viewport"
 
 [dotnet]
 

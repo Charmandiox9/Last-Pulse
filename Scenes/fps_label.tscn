@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dl0woldm0mtpp"]
+
+[ext_resource type="FontFile" uid="uid://bkhq4ux8vfrvk" path="res://assets/fonts/VCR_OSD_MONO_1.001.ttf" id="1_drjxt"]
+[ext_resource type="Script" uid="uid://clorhh3joo3fm" path="res://Scripts/fps_label.gd" id="2_fsx6d"]
+
+[node name="FPSLabel" type="Label"]
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_fonts/font = ExtResource("1_drjxt")
+script = ExtResource("2_fsx6d")
