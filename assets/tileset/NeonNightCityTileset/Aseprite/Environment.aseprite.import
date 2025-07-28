@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://cavyxfh8mlcs1"
+path="res://.godot/imported/Environment.aseprite-75fbb82af60968b2159caa1dabf04f08.res"
+
+[deps]
+
+source_file="res://assets/tileset/NeonNightCityTileset/Aseprite/Environment.aseprite"
+dest_files=["res://.godot/imported/Environment.aseprite-75fbb82af60968b2159caa1dabf04f08.res"]
+
+[params]
+

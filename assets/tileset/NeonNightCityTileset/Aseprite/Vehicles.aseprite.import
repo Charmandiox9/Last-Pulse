@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://c762yybwj235j"
+path="res://.godot/imported/Vehicles.aseprite-bd8a45447b6ee91667139dea0df26796.res"
+
+[deps]
+
+source_file="res://assets/tileset/NeonNightCityTileset/Aseprite/Vehicles.aseprite"
+dest_files=["res://.godot/imported/Vehicles.aseprite-bd8a45447b6ee91667139dea0df26796.res"]
+
+[params]
+

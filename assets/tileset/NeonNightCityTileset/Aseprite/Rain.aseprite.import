@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://3ubn4mg2c3re"
+path="res://.godot/imported/Rain.aseprite-4b448f13df180c480034ea9277a55b4f.res"
+
+[deps]
+
+source_file="res://assets/tileset/NeonNightCityTileset/Aseprite/Rain.aseprite"
+dest_files=["res://.godot/imported/Rain.aseprite-4b448f13df180c480034ea9277a55b4f.res"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://81q77g8wmsrp"
+path="res://.godot/imported/ColorPalette.aseprite-cad8a4d4365dc36c78f0be0c304e7871.res"
+
+[deps]
+
+source_file="res://assets/tileset/NeonNightCityTileset/Aseprite/ColorPalette.aseprite"
+dest_files=["res://.godot/imported/ColorPalette.aseprite-cad8a4d4365dc36c78f0be0c304e7871.res"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://dklfgn63kqqex"
+path="res://.godot/imported/Skateboard.aseprite-c06d291ec5644197e84568b24b12f9b5.res"
+
+[deps]
+
+source_file="res://assets/tileset/NeonNightCityTileset/Aseprite/Skateboard.aseprite"
+dest_files=["res://.godot/imported/Skateboard.aseprite-c06d291ec5644197e84568b24b12f9b5.res"]
+
+[params]
+
