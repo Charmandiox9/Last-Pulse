@@ -1,8 +1,11 @@
-[gd_scene load_steps=8 format=3 uid="uid://8bon2ex7poxj"]
+[gd_scene load_steps=11 format=3 uid="uid://8bon2ex7poxj"]
 
 [ext_resource type="Script" uid="uid://dtf6h0qpmt4gp" path="res://Scripts/main_menu.gd" id="1_1ehe0"]
 [ext_resource type="Texture2D" uid="uid://c62tr1x4qsvo1" path="res://assets/images/main_menu.png" id="1_48xlc"]
 [ext_resource type="FontFile" uid="uid://bkhq4ux8vfrvk" path="res://assets/fonts/VCR_OSD_MONO_1.001.ttf" id="2_1ehe0"]
+[ext_resource type="PackedScene" uid="uid://cx45u207cc005" path="res://Scenes/settings_menus.tscn" id="4_n45e2"]
+[ext_resource type="PackedScene" uid="uid://dl0woldm0mtpp" path="res://Scenes/fps_label.tscn" id="5_opfnp"]
+[ext_resource type="PackedScene" uid="uid://brokipqxcomjf" path="res://Scenes/GlobalUI.tscn" id="6_opfnp"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ce3w2"]
 bg_color = Color(0.027451, 0.0431373, 0.0627451, 1)
@@ -45,23 +48,24 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_1ehe0")
 
+[node name="GlobalUI" parent="." instance=ExtResource("6_opfnp")]
+
 [node name="Wallpaper" type="Sprite2D" parent="."]
-position = Vector2(960, 540)
-scale = Vector2(1, 0.998148)
+position = Vector2(576, 323.5)
+scale = Vector2(0.602, 0.601)
 texture = ExtResource("1_48xlc")
 
 [node name="Btn_Box" type="VBoxContainer" parent="."]
 clip_contents = true
 layout_mode = 1
-anchors_preset = -1
-anchor_left = 0.353
-anchor_top = 0.578
-anchor_right = 0.353
-anchor_bottom = 0.578
-offset_left = -237.76
-offset_top = -174.24
-offset_right = 237.24
-offset_bottom = 173.76
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 161.0
+offset_top = -378.0
+offset_right = 633.0
+offset_bottom = -30.0
+grow_vertical = 0
 theme_override_constants/separation = 20
 
 [node name="PLAY_BTN" type="Button" parent="Btn_Box"]
@@ -91,6 +95,25 @@ theme_override_fonts/font = ExtResource("2_1ehe0")
 theme_override_font_sizes/font_size = 75
 theme_override_styles/normal = SubResource("StyleBoxFlat_cp0ys")
 text = "QUIT"
+
+[node name="SettingsMenu" parent="." instance=ExtResource("4_n45e2")]
+visible = false
+layout_mode = 0
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 800.0
+offset_bottom = 600.0
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="FPSLabel" parent="." instance=ExtResource("5_opfnp")]
+visible = false
+layout_mode = 0
 
 [connection signal="pressed" from="Btn_Box/PLAY_BTN" to="." method="_on_play_btn_pressed"]
 [connection signal="pressed" from="Btn_Box/SETTINGS_BTN" to="." method="_on_settings_btn_pressed"]
